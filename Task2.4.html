@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  #nav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  h2,p{
+  padding:3px;
+  }
+
+  #nav a:hover {
+    left: 0;
+  }
+
+  #MongoDB {
+    top: 30px;
+    background-color: #2ECC71;
+  }
+
+  #Express {
+    top: 90px;
+    background-color: dodgerblue;
+  }
+
+  #React {
+    top: 150px;
+    background-color: red;
+  }
+
+  #Node {
+    top: 210px;
+    background-color: darkgray;
+  }
+</style>
+</head>
+<body>
+  <div id="nav" class="nav">
+    <a href="#MongoDB" id="MongoDB">Mongo</a>
+    <a href="#Express" id="Express">Express</a>
+    <a href="#React" id="React">React</a>
+    <a href="#Node" id="Node">Node</a>
+  </div>
+  <div style="margin-left:120px;">
+    <h2>Hoverable Sidenav Buttons</h2>
+    <p>Hover over the buttons in the left side navigation to open them.</p>
+  </div>     
+</body>
+</html>
